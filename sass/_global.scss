@@ -1,0 +1,22 @@
+@import "vars";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Muller', sans-serif;
+    color: $black;
+}
+
+.container {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    font-family: 'Muller', sans-serif;
+}

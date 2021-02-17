@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Конструктор</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__top">
+            <div class="header__title">Конструктор <span>услуг</span></div>
+            <a href="#" class="logo"><img src="./img/logo.svg" alt="Лого"></a>
+        </div>
+    </div>
+</header>
+
+<div class="Context Context_purple">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between py-4">
+
+            <div class="d-flex align-items-center">
+                <button class="btn border-0 d-flex align-items-center justify-content-center" type="button">
+                    <img src="img/icon/prev.png" alt="" class="">
+                    <span class="font-weight-bold ml-2">назад</span>
+                </button>
+
+                <div class="ml-4">
+                    <p class="mb-0">SMM продвижение</p>
+                    <h2 class="font-weight-bold mb-0">SMM продвижение</h2>
+                </div>
+            </div>
+
+            <div class="">
+                <h2> 4 800 000 сум </h2>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="design mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-0">
+                    <div class="card-header border-bottom-0">
+                        <p>1. <span class="font-weight-bold"> Дизайн </span> упаковка страниц</p>
+                    </div>
+
+                    <div class="card-body py-0 pl-0">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card border-0">
+                                    <div class="card-body p-0">
+                                        <img src="img/departments/Registration.png" alt="" class="w-100">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-9">
+                                <div class="row">
+                                    <button class="btn p-0 shadow-none">
+                                        <label for="null" class="input-label">
+                                            <input type="radio" id="null" name="numberOfPage">
+                                            <h5 class=" ml-5 mb-0 input-text d-block py-2"> 0 </h5>
+                                        </label>
+                                    </button>
+
+                                    <button class="btn p-0 shadow-none" >
+                                        <label for="nine" class="input-label">
+                                            <input type="radio" id="nine" name="numberOfPage">
+                                            <h5 class="ml-5 mb-0 input-text d-block py-2"> 9 </h5>
+                                        </label>
+                                    </button>
+
+                                    <button class="btn p-0 shadow-none">
+                                        <label for="twelve" class="input-label">
+                                            <input type="radio" id="twelve" name="numberOfPage">
+                                            <h5 class="ml-5 mb-0 input-text d-block py-2"> 12 </h5>
+                                        </label>
+                                    </button>
+
+                                    <button class="btn p-0 shadow-none btn_disabled">
+                                        <label for="disabled" class="input-label">
+                                            <input type="radio" id="disabled" name="numberOfPage">
+                                            <h5 class=" ml-5 mb-0 input-text d-block py-2"> 24 </h5>
+                                        </label>
+                                    </button>
+                                </div>
+
+                                <div class="row mt-1">
+                                    <div class="col-5">
+                                        <div class="card border-0">
+                                            <div class="card-body py-0">
+                                                <button class="btn shadow-none" id="borderdraw" onclick="drawBorder()">
+                                                    <label for="shablon" class="form-check-label">
+                                                       <div class="d-flex align-items-center mb-3">
+                                                           <input type="radio" id="shablon" name="numberOfPage" class="form-check-label_input">
+                                                           <h4 class="mb-0 input-text d-block pt-2 form-check-label_input-text"> Шаблон </h4>
+                                                           <a href="" class=""><img src="img/icon/VectorInfo.png" alt="" class="form-check-label_img"></a>
+                                                       </div>
+
+                                                        <p class="mb-0 text-left pl-3">Дизайн по </p>
+                                                        <p class="mb-0 text-left pl-3">готовому шаблону </p>
+
+                                                    </label>
+
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <div class="card border-0">
+                                            <div class="card-body py-0">
+                                                <button class="btn shadow-none" id="uniqueBorder" onclick="drawBorderForUnique()">
+                                                    <label for="unique" class="form-check-label">
+                                                        <div class="d-flex align-items-center mb-3">
+                                                            <input type="radio" id="unique" class="form-check-label_input" name="numberOfPage">
+                                                            <div><h4 class="mb-0 input-text form-check-label_input-text d-block pt-2"> Уникальный
+                                                                <h4 class="mb-0 form-check-label_input-text_inputTextFontSize pr-4"> дизайн</h4></h4></div>
+
+                                                            <a href="" class=""><img src="img/icon/VectorInfo.png" alt="" class="form-check-label_img"></a>
+                                                        </div>
+                                                    </label>
+
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-content">
+    <div class="container">
+        <div class="row">
+       <div class="col-12">
+          <div class="card px-5 d-flex flex-row justify-content-between border-0 align-items-center">
+              <div>
+                  <h2 class="mb-0"> Языки </h2>
+                  <p class="mb-0"> контента </p>
+              </div>
+
+              <button class="btn language-button p-0 shadow-none" onclick="drawBorderRu()" id="ru">
+                  <label for="russian" class="language-button_label">
+                      <img src="img/departments/ru.png" alt="" class="language-button_img">
+
+                      <input type="radio" class="language-button_input" id="russian">
+
+                      <span class="ml-3"></span>
+
+                      <p class="language-button_text mb-0 ml-5"> RU </p>
+                  </label>
+              </button>
+
+              <button class="btn language-button p-0 shadow-none" id="uzbek">
+                  <label for="UZ" class="language-button_label">
+                      <img src="img/departments/uz.png" alt="" class="language-button_img">
+
+                      <input type="radio" class="language-button_input" id="UZ" onclick="drawBorderUz()">
+
+                      <span class="ml-3"></span>
+
+                      <p class="language-button_text mb-0 ml-5"> UZ </p>
+                  </label>
+              </button>
+
+              <button class="btn language-button p-0 shadow-none" id="english">
+                  <label for="EN" class="language-button_label">
+                      <img src="img/departments/USA.png" alt="" class="language-button_img">
+
+                      <input type="radio" class="language-button_input" id="EN" onclick="drawBorderEn()">
+
+                      <span class="ml-3"></span>
+
+                      <p class="language-button_text mb-0 ml-5"> EN </p>
+                  </label>
+              </button>
+          </div>
+       </div>
+        </div>
+    </div>
+</div>
+
+<div class="design mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-0">
+                    <div class="card-header border-bottom-0">
+                        <p>1. <span class="font-weight-bold"> Дизайн </span> упаковка страниц</p>
+                    </div>
+
+                    <div class="card-body py-0 pl-0">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
