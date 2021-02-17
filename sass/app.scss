@@ -285,6 +285,7 @@
 }
 
 .Context {
+
   background-color: rgba(244, 244, 244, 1);
 
   &_purple {
@@ -308,6 +309,7 @@
   }
 
   .container {
+    height: 136px;
     button {
       width: 123px;
       height: 42px;
@@ -1304,6 +1306,115 @@ h3 {
             &_img{
               width: 93px;
               height: 62px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.advertisement{
+  .container {
+    .row {
+      .col-12 {
+        .card {
+          .card-header {
+            background-color: rgba(201,255,200,1);
+            p{
+              font-size: 36px;
+            }
+          }
+
+          .card-body {
+            background-color: rgba(234,255,232,1);
+            .row{
+
+              .col-5{
+                .card-body{
+                  h3{
+                    font-size: 36px;
+                  }
+                  img{
+                    width: 34px;
+                    height: 34px;
+                  }
+                  p{
+                    font-size: 24px;
+                  }
+                }
+              }
+              .col-7{
+                .card-body{
+                  input{
+                    width: 343px;
+                    height: 77px;
+                    background: #FFFFFF;
+                    border: 1px solid #C4C4C4;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                    font-size: 48px;
+
+
+                  }
+                  h3{
+                    font-size: 36px;
+                    line-height: 36px;
+                  }
+                  p{
+                    font-size: 24px;
+                  }
+                }
+              }
+
+              &:nth-child(2){
+                .col-7{
+                  .card{
+                    .card-body{
+                      input{
+                        width: 114px;
+                      }
+                      .inputTwo{
+                        width: 175px;
+                      }
+                    }
+                  }
+                }
+              }
+
+            }
+          }
+
+          .card-footer{
+            margin-bottom: 1500px;
+            background-color: rgba(222,235,255,1);
+            .col-5{
+              img{
+                width: 94px;
+                height: 86px;
+              }
+              h2{
+                font-size: 32px;
+
+              }
+            }
+            .col-7{
+              label{
+                span{
+                  font-size: 36px;
+                }
+
+                input{
+                  width: 466px;
+                  height: 77px;
+                  background: #FFFFFF;
+                  border: 1px solid #C4C4C4;
+                  box-sizing: border-box;
+                  border-radius: 10px;
+                  font-size: 48px;
+
+                }
+              }
             }
           }
         }
